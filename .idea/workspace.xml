@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50590d04-58f7-4205-a790-52598e193e20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/Controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/DTO/ProductRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/DTO/ProductResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/Models/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/Repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/buildingmicroservices/Product/Service/Services/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/buildingmicroservices/Product/Service/ProductServiceApplicationTests.java" beforeDir="false" />
+    <list default="true" id="f45ef6e7-474a-4a23-abef-2188eff47c91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Order-Service/src/main/java/com/springmicroservices/orderService/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Order-Service/src/main/java/com/springmicroservices/orderService/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Order-Service/src/main/java/com/springmicroservices/orderService/Repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Order-Service/src/main/java/com/springmicroservices/orderService/Repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Order-Service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,36 +18,99 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MrlLaIp0mCg9qs5S5u84xxAIon" />
+  <component name="ProjectId" id="2MsDQaoUX008iT4oZQj0HIyeeLi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/user/Desktop/Spring Boot/Spring-boot-microservices/Spring-Microservices/Inventory-Service",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Inventory-Service" />
+      <recent name="C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Order-Service" />
+      <recent name="C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Product-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.buildingmicroservices.Product.Service.ProductServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buildingmicroservices.Product.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="50590d04-58f7-4205-a790-52598e193e20" name="Changes" comment="" />
-      <created>1678533533213</created>
+      <changelist id="f45ef6e7-474a-4a23-abef-2188eff47c91" name="Changes" comment="" />
+      <created>1678547386016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678533533213</updated>
-      <workItem from="1678533537813" duration="95000" />
+      <updated>1678547386016</updated>
+      <workItem from="1678547387855" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

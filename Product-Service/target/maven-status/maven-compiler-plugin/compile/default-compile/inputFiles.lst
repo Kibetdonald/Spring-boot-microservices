@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\ProductServiceApplication.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\Models\Product.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\Controller\ProductController.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\DTO\ProductResponse.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\DTO\ProductRequest.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\Repository\ProductRepository.java
+C:\Users\user\Desktop\Spring Boot\Spring-boot-microservices\Spring-Microservices\Product-Service\src\main\java\com\buildingmicroservices\Product\Service\Services\ProductService.java
