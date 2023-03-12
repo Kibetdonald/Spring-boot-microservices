@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f45ef6e7-474a-4a23-abef-2188eff47c91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/DTO/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/Config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/DTO/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/src/main/java/com/springmicroservices/discoveryService/DiscoveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Models/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Models/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/Services/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/Services/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/Services/OrderServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/Services/OrderServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/surefire-reports/TEST-com.buildingmicroservices.Product.Service.ProductServiceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/surefire-reports/TEST-com.buildingmicroservices.Product.Service.ProductServiceApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/surefire-reports/com.buildingmicroservices.Product.Service.ProductServiceApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/surefire-reports/com.buildingmicroservices.Product.Service.ProductServiceApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +103,13 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Discovery-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springmicroservices.discoveryService.DiscoveryServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,7 +157,7 @@
       <updated>1678547386016</updated>
       <workItem from="1678547387855" duration="1118000" />
       <workItem from="1678548790161" duration="846000" />
-      <workItem from="1678600944273" duration="3760000" />
+      <workItem from="1678600944273" duration="7961000" />
     </task>
     <servers />
   </component>
