@@ -6,23 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f45ef6e7-474a-4a23-abef-2188eff47c91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/InventoryService/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/springmicroservices/orderService/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/classes/com/springmicroservices/orderService/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/target/classes/com/springmicroservices/orderService/OrderServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/Models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/buildingmicroservices/Product/Service/Repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/classes/com/buildingmicroservices/Product/Service/ProductServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/classes/com/buildingmicroservices/Product/Service/ProductServiceApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +89,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,7 +152,7 @@
       <workItem from="1678547387855" duration="1118000" />
       <workItem from="1678548790161" duration="846000" />
       <workItem from="1678600944273" duration="10091000" />
-      <workItem from="1678695029105" duration="4216000" />
+      <workItem from="1678695029105" duration="4796000" />
     </task>
     <servers />
   </component>
