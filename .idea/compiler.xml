@@ -10,12 +10,14 @@
         <module name="Inventory-Service" />
         <module name="Order-Service" />
         <module name="Discovery-Server" />
+        <module name="Api-Gateway" />
         <module name="Product-Service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Api-Gateway" options="-parameters" />
       <module name="Discovery-Server" options="-parameters" />
       <module name="Inventory-Service" options="-parameters" />
       <module name="Order-Service" options="-parameters" />

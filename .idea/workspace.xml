@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f45ef6e7-474a-4a23-abef-2188eff47c91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Api-Gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Gateway/src/main/java/com/buildingmicroservices/APIGateway/APIGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +96,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.APIGatewayApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,6 +104,13 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Api-Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.buildingmicroservices.APIGateway.APIGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,7 +166,7 @@
       <workItem from="1678547387855" duration="1118000" />
       <workItem from="1678548790161" duration="846000" />
       <workItem from="1678600944273" duration="10091000" />
-      <workItem from="1678695029105" duration="4796000" />
+      <workItem from="1678695029105" duration="6908000" />
     </task>
     <servers />
   </component>
