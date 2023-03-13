@@ -1,26 +1,27 @@
 package com.buildingmicroservices.Product.Service.Models;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
+import lombok.*;
+import org.hibernate.annotations.GenericGenerator;
 
-@Document(value = "Products")
-@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
+@Getter
+@Setter
+@Table(name = "Products")
 @Builder
 public class Product {
-    @Id
 
-    private String id;
+    @Id @GeneratedValue(generator="system-uuid")
+    @GenericGenerator(name="system-uuid", strategy = "uuid")
+    private String Id;
     private String name;
     private String description;
     private String price;
+
 
 }
